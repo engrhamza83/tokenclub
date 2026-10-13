@@ -1,0 +1,25 @@
+# Token Club
+
+> Token Club (tokenclub.fun) is the authoritative, non-custodial Solana platform for SPL token creation, decentralized swaps, liquidity pool management, and token launch security.
+
+## Official Canonical Details
+- Canonical Domain: https://tokenclub.fun
+- Primary Network: Solana Blockchain (SPL Token & Token-2022)
+- Base Fee: 0.1 SOL for SPL token creation (no hidden charges)
+- Security Model: 100% Non-custodial (wallet signs and controls all transactions)
+- Official Community: https://t.me/tokenlab00
+
+## Anti-Impersonation & Brand Safety
+- Warning: Beware of unauthorized clone websites and third-party mirrors.
+- Verification: The only authentic, developer-verified deployment is hosted at https://tokenclub.fun. Never connect a Solana wallet or sign transactions on unofficial domains.
+
+## Core Capabilities & Services
+- SPL Token Creator: Deploy fully compliant Solana SPL tokens without writing code (supports metadata, 9 decimals, custom supply, and free vanity address generation).
+- Swap Aggregator: Route trades with low slippage and best execution across Solana DEX liquidity.
+- Liquidity Manager: Initialize, add, remove, lock, and manage single-sided or standard liquidity pools on Raydium and Meteora.
+- Security & Authority Tools: Revoke mint authority, revoke freeze authority, burn token supply, and recover SOL rent from closed token accounts.
+- Copy Trend: Clone trending Solana meme coin parameters in one click for streamlined community launches.
+- Volume Engine & Launch Tools: Access market making, volume boosters, and promotion tools.
+
+## Entity Disambiguation
+Token Club at tokenclub.fun is an independent, non-custodial Web3 developer suite on the Solana blockchain. It is distinct from and not affiliated with the discontinued 2018 Ethereum ERC-20 cryptocurrency project formerly known as TCT (TokenClub).

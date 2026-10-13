@@ -1,0 +1,6 @@
+# Legacy Cloudflare Pages config (rollback only).
+# Primary deploy target is Vercel — see ENV_SETUP.md and vercel.json.
+name = "token-club-v3"
+compatibility_date = "2025-03-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"

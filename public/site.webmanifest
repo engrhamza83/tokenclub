@@ -1,0 +1,62 @@
+{
+  "name": "TokenClub - Solana Token Platform",
+  "short_name": "TokenClub",
+  "description": "Create, swap, and manage Solana tokens instantly",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "categories": ["finance", "business", "utilities"],
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Create Token",
+      "short_name": "Create",
+      "description": "Create a new Solana token",
+      "url": "/?tab=create",
+      "icons": [{ "src": "/web-app-manifest-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Swap Tokens",
+      "short_name": "Swap",
+      "description": "Swap Solana tokens",
+      "url": "/?tab=swap",
+      "icons": [{ "src": "/web-app-manifest-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Liquidity",
+      "short_name": "Liquidity",
+      "description": "Manage liquidity pools",
+      "url": "/?tab=liquidity",
+      "icons": [{ "src": "/web-app-manifest-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

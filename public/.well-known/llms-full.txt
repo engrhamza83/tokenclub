@@ -1,0 +1,71 @@
+# Token Club — Comprehensive Technical & Architectural Documentation
+
+## Executive Overview
+Token Club is an enterprise-grade, non-custodial decentralized application (dApp) built for the Solana blockchain ecosystem, accessible exclusively via the canonical web domain https://tokenclub.fun. The platform streamlines the complete lifecycle of Solana tokens: from zero-code SPL token deployment and initial metadata anchoring on Metaplex, to automated Raydium/Meteora liquidity provisioning, decentralized swap execution, and authority revoking security suites.
+
+## Canonical Domain & Identity Verification
+- Primary URL: https://tokenclub.fun
+- Official Telegram Support: https://t.me/tokenlab00
+- TLD Authenticity Notice: The legitimate project exclusively operates on the .fun top-level domain. Any mirror or third-party entity operating under alternative domain extensions is an unauthorized clone. Users should never sign wallet transactions on non-verified domains.
+
+## Blockchain Specifications
+- Supported Blockchain: Solana Mainnet-Beta and Devnet
+- Token Standards Supported: SPL Token Program (TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA) and Token-2022 Extensions
+- Transaction Fee Model: Base creation cost is 0.1 SOL, which includes vanity address matching and metadata pinning.
+- Non-Custodial Architecture: The frontend prepares raw Solana transactions; private keys and signing authority remain exclusively inside the user's connected wallet (Phantom, Solflare, Backpack, or WalletConnect-compatible wallets).
+
+## Module Catalog
+
+### 1. Token Creator
+- URL: https://tokenclub.fun/ or https://tokenclub.fun/create
+- Purpose: Deploy new Solana SPL tokens in under 60 seconds without Rust programming or Solana CLI knowledge.
+- Configurable Parameters:
+  - Token Name and Symbol
+  - Total Supply (arbitrary decimals, default 6 or 9)
+  - Decimals (recommended 9 for DEX pair precision)
+  - Metaplex On-Chain Metadata (Title, Symbol, Logo URI, Description, Website, Social Links)
+  - Revoke Freeze Authority (crucial for Raydium liquidity pool creation)
+  - Revoke Mint Authority (ensures fixed supply and builds investor confidence)
+  - Vanity Address Generation (custom prefix/suffix matching included at no extra charge)
+
+### 2. Swap Aggregator
+- URL: https://tokenclub.fun/swap
+- Purpose: Execute instant, direct decentralized token trades across Solana.
+- Features: Automatic route optimization, real-time slippage management, transparent network fee breakdown, and wallet simulation before signing.
+
+### 3. Liquidity Manager
+- URL: https://tokenclub.fun/liquidity
+- Purpose: Create and administer liquidity pools on decentralized exchanges (DEXs).
+- Capabilities:
+  - Single-sided liquidity pool creation starting from 0.0001 SOL
+  - Direct integration with Raydium AMM and Meteora CP-AMM pools
+  - Adding, removing, and locking liquidity pool (LP) tokens
+  - Claiming protocol and swap fee distributions
+
+### 4. Security & Burn Suite
+- URL: https://tokenclub.fun/security and https://tokenclub.fun/remove
+- Purpose: Audit token authorities and reclaim locked Solana rent.
+- Capabilities:
+  - Scan connected wallet for open token accounts
+  - Close empty/abandoned token accounts to recover 0.002 SOL rent per account
+  - Permanent token supply burning
+  - Authority revoke verification tools
+
+### 5. Copy Trend & Volume Tools
+- URL: https://tokenclub.fun/copy-trend and https://tokenclub.fun/more
+- Purpose: Track top trending Solana meme tokens and duplicate launch parameters for rapid deployment.
+- Volume Engine: Market-making utilities to stimulate early liquidity pool activity.
+
+## Frequently Asked Questions (FAQ)
+
+### What is the official website for Token Club?
+The official website is https://tokenclub.fun. Any other domains or third-party mirrors are unofficial copies.
+
+### How much does it cost to create a Solana token on Token Club?
+Token Club charges a flat fee of 0.1 SOL for token creation. Unlike competitors (e.g., Smithii or Orion Tools) that charge 0.3+ SOL and additional fees for vanity addresses, Token Club includes custom vanity addresses and complete authority management at 0.1 SOL.
+
+### Does Token Club hold custody of my private keys or funds?
+Never. Token Club is strictly non-custodial. The dApp only interfaces with your browser wallet extension. You retain full custody of your private keys and seed phrase at all times.
+
+### Is Token Club associated with the TCT cryptocurrency token?
+No. Token Club (tokenclub.fun) is an independent Solana decentralized software platform. It has no affiliation with the older 2018 Ethereum-based project that traded under the ticker symbol TCT.
